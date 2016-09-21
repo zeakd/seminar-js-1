@@ -1,1 +1,23 @@
-["index.md"]
+[
+    "index.html",
+    "examples.html",
+    "async-title.html",
+    "whatissync.html",
+    "whatisasync.html",
+    "settimeout-setinterval.html",
+    "whatiscallback.html",
+    "event-title.html",
+    "onclick.html",
+    "badembadedevent.html",
+    "dom-start.html",
+    "addevent.html",
+    "pratice-scripttag.html",
+    "scripttag.html",
+    "scripttag-body.html",
+    "scripttag-load.html",
+    "onloadvsdomcontentloaded.html",
+    "variousevent.html",
+    "eventdeeper.html",
+    "ajax-title.html",
+    "ajax-intro.html"
+]

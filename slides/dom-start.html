@@ -1,0 +1,21 @@
+<h2>DOM</h2>
+
+<p>그러면 분리를 해보자.</p>
+<pre><code data-trim data-noescape> 
+&lt;div id="wow" class="wow"&gt;&lt;/div&gt;
+</code></pre>
+<pre><code data-trim data-noescape>
+// wow div를 찾는다.
+var wowElement = document.getElementById('wow');
+// &lt;div id="wow"&gt;&lt;/div&gt;
+
+// 구버전
+wow.onclick = function () {
+  alert("wow");
+}
+// 신버전
+wow.addEventListener('click', function () {
+  alert("wow");
+})
+</code></pre>
+

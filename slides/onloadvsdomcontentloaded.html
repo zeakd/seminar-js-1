@@ -1,0 +1,25 @@
+<h2>onload vs DOMContentLoaded</h2>
+<p>불러오는데에는 onload와 DOMContentLoaded 두가지 방법이 있다.</p>
+<pre><code data-trim data-noescape> 
+window.onload = init;
+//or
+//window.addEventListener('load', init)
+function init () {
+  var wowElement = document.getElementById('wow');
+  wow.addEventListener('click', function () {
+    alert("wow");
+  })
+}
+</code></pre>
+
+<pre><code data-trim data-noescape> 
+window.addEventListener('DOMContentLoaded', init)
+function init () {
+  var wowElement = document.getElementById('wow');
+  wow.addEventListener('click', function () {
+    alert("wow");
+  })
+}
+</code></pre>
+
+<p class="fragment">dom만 그리느냐, 데이터도 모두 불러오느냐 (이미지 등)</p>
