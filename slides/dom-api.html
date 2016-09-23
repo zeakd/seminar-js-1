@@ -1,0 +1,18 @@
+<h2>find DOM Element</h2>
+
+<p>각각의 태그들을 찾을 수 있는 방법이 뭐가 있을까?</p>
+
+<p>id!</p>
+<pre><code data-trim data-noescape> 
+var wow = document.getElementById('wow');
+</code></pre>
+<p>class!</p>
+<pre><code data-trim data-noescape> 
+var wow = document.getElementsByClassName('wow')[0];
+</code></pre>
+<p>tag 이름!</p>
+<pre><code data-trim data-noescape> 
+var wow = document.getElementsByTagName('div')[0];
+</code></pre>
+<p>id는 유일하기때문에 Element이고 그외는 여러엘레멘트를 리턴하기 때문에 Elements인것에 유의하자</p>
+

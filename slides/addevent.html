@@ -1,4 +1,4 @@
-<h2>차이점이 뭔가요</h2>
+<h2>event listener의 차이점</h2>
 
 <pre><code data-trim data-noescape>
 // 이전것이 지워진다.
@@ -12,16 +12,4 @@ wow.onclick = function () {
   alert("3");
 }
 // 3
-
-// 계속 추가된다.
-wow.addEventListener('click', function () {
-  alert("1");
-})
-wow.addEventListener('click', function () {
-  alert("2");
-})
-wow.addEventListener('click', function () {
-  alert("3");
-})
-// 1 2 3
 </code></pre>

@@ -1,0 +1,19 @@
+<h2>event listener의 차이점</h2>
+
+<pre><code data-trim data-noescape>
+// 계속 추가된다.
+wow.addEventListener('click', function () {
+  alert("1");
+})
+function alert2() {
+  alert("2");
+}
+
+wow.addEventListener('click', alert2)
+wow.addEventListener('click', function () {
+  alert("3");
+})
+// 삭제도 가능하다.
+wow.removeEventListener('click', alert2)
+// 1 3
+</code></pre>
